@@ -54,7 +54,7 @@ const CartItem = props => (
               </button>
             </div>
             <div className="total-price-remove-container">
-              <p className="cart-total-price">Rs {dishPrice * quantity}/-</p>
+              <p className="cart-total-price">SAR {dishPrice * quantity}</p>
               <button
                 className="remove-button"
                 type="button"
