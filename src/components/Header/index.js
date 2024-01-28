@@ -45,10 +45,12 @@ const Header = props => {
       </button>
       <div className="header-container">
         <p>My Orders </p>
-        <button type="button" data-testid="cart">
-          <FaCartArrowDown />
-          {renderCartItemsCount()}
-        </button>
+        <Link to="/cart" className="link-item">
+          <button type="button" data-testid="cart">
+            <FaCartArrowDown />
+            {renderCartItemsCount()}
+          </button>
+        </Link>
       </div>
     </nav>
   )
